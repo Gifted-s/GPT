@@ -48,7 +48,7 @@ def download_file(url, destination):
         if os.path.exists(destination):
             file_size_local = os.path.getsize(destination)
             if file_size == file_size_local:
-                print(f"File already exist and it is up-to-date: {destination}")
+                print(f"File already exists and it is up-to-date: {destination}")
                 return
 
         # Define the block size for reading the file

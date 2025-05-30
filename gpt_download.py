@@ -66,7 +66,7 @@ def download_file(url, destination):
 
     except requests.exceptions.RequestException as e:
         print(f"Error downloading the file: {e}")
-        print(f"Please check the download URL: {url}")
+        print(f"Please check the downloads URL: {url}")
 
 def load_gpt2_params_from_tf_ckpt(ckpt_path, settings):
     # Initialize parameters dictionary with empty blocks for each layer

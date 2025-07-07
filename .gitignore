@@ -1,6 +1,7 @@
 /gpt2
-/__pycache__
-/.ipynb_checkpoints
-.DS_Store
-model.pth 
-model_and_optimizer.pth
+*.pth
+*.pkl
+*.h5
+*.ckpt
+model/
+checkpoints/
